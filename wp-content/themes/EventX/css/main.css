@@ -298,17 +298,42 @@ aside#sidebar{
     z-index: 999;
     width: 40vw;
     height: 100vh;
+    min-height: 100vh;
     position:fixed;
     top:0;
     left:0;
 }
 
+aside#sidebar h3{
+    margin: 2rem 0;
+}
+
 aside#sidebar .content{
     width: 80%;
+    height:100%;
     background-color: #fff;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, .4);
     overflow-y:scroll;
     padding: 18px;
+}
+
+aside#sidebar .toggler{
+    position:absolute;
+    top:50%;
+    left:85%;
+    transform:translate(-55%, -50%);
+    background-color: #fff;
+    padding: 0 12px;
+    cursor:pointer;
+    trans
+}
+
+.toggler span{
+    font-size: 45px;
+    font-weight:bold;
+}
+
+aside#sidebar .content .sponsor-wrapper{
     display:grid;
     grid-template-columns: repeat(2, auto);
     grid-gap: 12px;
@@ -321,6 +346,6 @@ aside#sidebar .sponsor{
 aside#sidebar .sponsor img{
     width:100%;
     height: 120px;
-    margin-bottom: 1rem;
+    margin-bottom: .6rem;
 }
 /* end sidebar styles */
