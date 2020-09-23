@@ -19,7 +19,7 @@
     </div>
 
     <div class="toggler">
-        <span>
+        <span class="d-block">
             &gt;
         </span>
     </div>

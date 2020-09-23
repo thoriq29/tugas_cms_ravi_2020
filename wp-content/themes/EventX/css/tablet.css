@@ -98,3 +98,14 @@ footer#footer .content div h4{
     font-size: 20px
 }
 /* end footer styles */
+
+/* sidebar */
+
+aside#sidebar .toggler{
+    left: 85%;
+}
+
+aside#sidebar{
+    width:60vw;
+    left:-45%;
+}

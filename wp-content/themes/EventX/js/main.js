@@ -57,7 +57,6 @@ $(document).ready(function(){
     })
 
     // countdown
-
     function countdown(){
         let day = parseInt($('span#days').html().split(' ')[0])
         let hour = parseInt($('span#hours').html().split(' ')[0])
@@ -94,5 +93,17 @@ $(document).ready(function(){
     setInterval(() => {
         countdown()
     }, 1000)
+
+    // open sidebar
+    $('body').on('click', 'aside#sidebar .toggler', function(){
+        $(this).parent().toggleClass('active')
+
+        if($(this).parent().hasClass('active')){
+            this.style.backgroundColor = '#d4d4d4'
+        }
+        else{
+            this.style.backgroundColor = '#fff'
+        }
+    })
 
 })

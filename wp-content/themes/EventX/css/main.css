@@ -301,6 +301,11 @@ aside#sidebar{
     min-height: 100vh;
     position:fixed;
     top:0;
+    left:-32.2%;
+    transition:all 1s;
+}
+
+aside#sidebar.active{
     left:0;
 }
 
@@ -325,7 +330,14 @@ aside#sidebar .toggler{
     background-color: #fff;
     padding: 0 12px;
     cursor:pointer;
-    trans
+    transition: all .5s;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    user-select: none;
+}
+
+aside#sidebar .toggler:hover{
+    background-color: #d4d4d4;
 }
 
 .toggler span{
