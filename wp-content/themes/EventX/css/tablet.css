@@ -1,0 +1,74 @@
+body{
+    font-size: 16px;
+}
+
+.container{
+    max-width: 85%;
+    margin:0 auto;
+}
+
+.section-header{
+    font-size: 24px;
+}
+
+.header span{
+    font-size: 18px;
+}
+
+.card .card-body .card-title{
+    font-size: 18px
+}
+
+.btn{
+    font-size: 16px;
+}
+
+/* header styles */
+header#header .container{
+    text-align:center
+}
+
+header#header .container h1{
+    font-size: 38px;
+}
+
+#jssor_1 .slides{
+    width:100% !important;
+    height: 110vh !important;
+}
+
+#jssor_1 .slides div{
+    width:100% !important;
+    height: 110vh !important;
+}
+
+.slides img{
+    width:100% !important;
+    height: 110vh !important;
+}
+
+/* end header styles*/
+
+/* save date styles*/
+section#save_date{
+    height:38vh;
+}
+
+section#save_date h2{
+    font-size: 20px
+}
+
+section#save_date .countdown{
+    font-size: 22px;
+}
+/* end save date styles*/
+
+/* about us styles*/
+section#aboutUs .content{
+    display: block !important;
+}
+
+section#aboutUs .img-company{
+    margin-bottom: 1.7rem;
+}
+/* end about us styles*/

@@ -10,6 +10,7 @@ class EventX{
         wp_enqueue_style('jssorcss', get_template_directory_uri() . '/css/jssor.css', array() , '1.0.0', 'all');
         wp_enqueue_style('variables', get_template_directory_uri() . '/css/_variables.css', array() , '1.0.0', 'all');
         wp_enqueue_style('main', get_template_directory_uri() . '/css/main.css', array() , '1.0.0', 'all');
+        wp_enqueue_style('tablet', get_template_directory_uri() . '/css/tablet.css', array() , '1.0.0', '(max-width: 768px)');
         wp_enqueue_script('jssorjs', get_template_directory_uri() . '/js/jssor.slider-22.2.16.min.js', array() , '1.0.0', true);
         wp_enqueue_script('main', get_template_directory_uri() . '/js/main.js', array('jquery') , '1.0.0', true);
     }

@@ -67,16 +67,16 @@ $(document).ready(function(){
 
         second -= 1
         if(second === 0){
-            minute -= 1
             second = 59
+            minute -= 1
 
             if(minute === 0){
-                hour -= 1
                 minute = 59
+                hour -= 1
 
                 if(hour === 0){
-                    day -= 1
                     hour = 23
+                    day -= 1
 
                     if(day === 0 && hour === 0 && minute === 0 && second === 0){
                         console.log('Event is began or Event was finished')
