@@ -105,11 +105,21 @@ section{
 .btn-primary{
     background-color: var(--primaryColor);
     color: #fafafa;
-    transition:all 1s
+    transition:all .5s
 }
 
 .btn-primary:hover{
     background-color: #651734;
+}
+
+.btn-secondary{
+    background-color: var(--secondaryColor);
+    color: #fafafa;
+    transition:all .5s
+}
+
+.btn-secondary:hover{
+    background-color: #956436;
 }
 
 /* end custom css */
@@ -176,3 +186,27 @@ section#news .card .card-body a{
     display: block;
 }
 /* end news section styles */
+
+/* save date section styles */
+
+section#save_date{
+    position:relative;
+    width:100vw;
+    height:45vh;
+    background-color: var(--primaryColor);
+    color: #fafafa;
+}
+
+section#save_date .container{
+    text-align:center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%)
+}
+
+section#save_date h2{
+    margin-bottom: 1rem;
+}
+
+/* end save date section styles */
