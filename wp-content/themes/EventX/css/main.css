@@ -10,6 +10,7 @@
 body{
     font-size: 18px;
     color: #606060;
+    overflow-x:hidden
 }
 
 .container{
@@ -55,3 +56,32 @@ body{
 }
 
 /* end custom css */
+
+/* header styles */
+header#header{
+    width: 100vw;
+    height:100vh;
+}
+
+#jssor_1{
+    width:100vw !important;
+    height: 100vh !important;
+}
+
+#jssor_1 .slides{
+    width:100vw !important;
+    height: 100vh !important;
+}
+
+#jssor_1 .slides div{
+    width:100vw !important;
+    height: 100vh !important;
+}
+
+img.img-slider{
+    width:100% !important;
+    height:100% !important;
+    cursor:pointer;
+    filter: brightness(.5)
+}
+/* end header styles */
