@@ -279,7 +279,15 @@ footer#footer .subscribe button{
     padding: 7px 14px;
 }
 
+footer#footer .content div h4{
+    margin-bottom: 1rem;
+}
+
 .copyright{
     margin-top: 2rem;
+}
+
+.norm_row{
+    margin-left: 2rem;
 }
 /* end footer styles */

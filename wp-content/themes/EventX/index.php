@@ -32,7 +32,7 @@
                             <p>
                                 <?= substr($news->post_content, 0, 150) ?>...
                             </p>
-                            <a href="" class="btn btn-secondary full-width">Read more</a>
+                            <a href="<?= get_the_permalink($news->ID) ?>" class="btn btn-secondary full-width">Read more</a>
                         </div>
                     </div>
                 <?php endforeach; ?>

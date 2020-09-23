@@ -27,9 +27,7 @@
                 <h4>
                     Follow Us
                 </h4>
-                <span class="d-block">
-                    our.eventxcorp@event.com
-                </span>
+                <?= do_shortcode('[DISPLAY_ULTIMATE_SOCIAL_ICONS] ') ?>
             </div>
         </div>
 

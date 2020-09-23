@@ -51,3 +51,4 @@ exit(0);
 1600847811_6624:"Notice: adMinX, 127.0.0.1; News status has been changed; details: ID: 36,Old status: new,New status: auto-draft,Title: Auto Draft"
 1600847830_0055:"Notice: adMinX, 127.0.0.1; News status has been changed; details: ID: 36,Old status: auto-draft,New status: draft,Title: Cardi B facing defamation lawsuit after beach fight"
 1600847837_3246:"Notice: adMinX, 127.0.0.1; News status has been changed; details: ID: 36,Old status: draft,New status: publish,Title: Cardi B facing defamation lawsuit after beach fight"
+1600854504_3005:"Error: adMinX, 127.0.0.1; Permalink settings changed: (multiple entries): permalink_structure: from '\/%year%\/%monthnum%\/%day%\/%postname%\/' to '\/%postname%\/'"
