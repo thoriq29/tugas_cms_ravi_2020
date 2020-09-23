@@ -43,4 +43,17 @@ $(document).ready(function(){
 
     // write code here
 
+    $('body').on('mouseenter', '.img-wrapper', function(){
+        const id = $(this).data('artist')
+        const music = $(`audio#music-${id}`)[0]
+        music.play()
+    })
+
+    $('body').on('mouseleave', '.img-wrapper', function(){
+        const id = $(this).data('artist')
+        const music = $(`audio#music-${id}`)[0]
+        music.pause()
+        music.currentTime = 0;
+    })
+
 })

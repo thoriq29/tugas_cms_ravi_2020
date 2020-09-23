@@ -12,6 +12,7 @@ body{
     color: #606060;
     overflow-x:hidden;
     font-family: "Poppins";
+    background-color: #ededed;
 }
 
 section{
@@ -28,12 +29,36 @@ section{
     display: block;
 }
 
+.full-width{
+    min-width: 100%;
+}
+
 .text-center{
     text-align:center !important;
 }
 
 .text-bold{
     font-weight:bold;
+}
+
+.card{
+    width:100%;
+    padding: 25px;
+    border-radius: 15px;
+    position:relative;
+    background-color: #fff;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, .2)
+}
+
+.card .card-body .card-title{
+    font-family: "Poppins Medium";
+    font-size: 22px;
+    color: #404040;
+    margin-bottom: 1rem;
+}
+
+.card .card-body p{
+    margin-bottom: 2rem;
 }
 
 .header{
@@ -138,3 +163,6 @@ header#header .container span{
     margin-bottom: 2.4rem;
 }
 /* end header styles */
+
+/* news section styles */
+/* end news section styles */

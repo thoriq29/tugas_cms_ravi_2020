@@ -13,7 +13,14 @@
            </div>
 
             <div class="content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita odio recusandae saepe. A beatae ex facere magnam molestias nam obcaecati odio odit officia perspiciatis possimus quis, quisquam soluta tempore voluptatum!</p>
+                <div class="card">
+                    <div class="card-body">
+                        <h1 class="card-title">
+                            This is a title
+                        </h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab iusto maxime odit, quas repudiandae rerum voluptas. Alias corporis cum deleniti dicta ea eius et incidunt, omnis quam soluta, velit voluptatum!</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

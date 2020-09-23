@@ -24,7 +24,7 @@
             ]) ?>
 
             <?php foreach($artists as $artist) : ?>
-                <div>
+                <div class="img-wrapper" data-artist="<?= $artist->ID ?>">
                     <img data-u="image" src="<?= get_the_post_thumbnail($artist->ID) ?>" />
                     <div data-u="thumb">
                         <img class="img-slider" src="<?= get_the_post_thumbnail($artist->ID) ?>" />
