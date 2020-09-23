@@ -1,10 +1,17 @@
 <?php get_header(); ?>
-<main id="content">
-<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-<?php get_template_part( 'entry' ); ?>
-<?php comments_template(); ?>
-<?php endwhile; endif; ?>
-<?php get_template_part( 'nav', 'below' ); ?>
+
+<main id="main">
+    <section id="news">
+        <div class="container">
+            <h3 class="section-header">
+                News
+            </h3>
+
+            <div class="content">
+                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam corporis deleniti ducimus earum, est facere, facilis id in laudantium nemo nihil nisi non porro quo repellendus, sed similique sit.</h3>
+            </div>
+        </div>
+    </section>
 </main>
-<?php get_sidebar(); ?>
+
 <?php get_footer(); ?>

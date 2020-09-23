@@ -19,6 +19,20 @@ class EventX{
                 'supports' => ['thumbnail']
         ]);
 
+        register_post_type('news', [
+            'label' => 'News',
+            'menu_position' => 3,
+            'public' => true,
+            'supports' => ['title', 'editor']
+        ]);
+
+        register_post_type('customize', [
+            'label' => 'Customize',
+            'menu_position' => 4,
+            'public' => true,
+            'supports' => ['']
+        ]);
+
         /* register wp supports */
         add_theme_support('post-thumbnails');
     }

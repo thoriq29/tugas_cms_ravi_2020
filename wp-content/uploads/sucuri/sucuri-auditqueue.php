@@ -1,7 +1,38 @@
 <?php
 // datastore=auditqueue;
 // created_on=1600836671;
-// updated_on=1600836671;
+// updated_on=1600836746;
 exit(0);
 ?>
 1600836671_0297:"Warning: adMinX, 127.0.0.1; Plugin activated: Sucuri Security - Auditing, Malware Scanner and Hardening (v1.8.11; sucuri-scanner\/sucuri.php)"
+1600841370_7304:"Notice: adMinX, 127.0.0.1; Customize status has been changed; details: ID: 9,Old status: new,New status: auto-draft,Title: Auto Draft"
+1600841385_1978:"Notice: adMinX, 127.0.0.1; Acf-field-group status has been changed; details: ID: 10,Old status: new,New status: auto-draft,Title: Auto Draft"
+1600841434_3993:"Notice: adMinX, 127.0.0.1; Acf-field-group status has been changed; details: ID: 10,Old status: auto-draft,New status: publish,Title: Artists"
+1600841436_5295:"Notice: adMinX, 127.0.0.1; Acf-field status has been changed; details: ID: 11,Old status: new,New status: publish,Title: MP3"
+1600841442_9716:"Notice: adMinX, 127.0.0.1; Acf-field-group status has been changed; details: ID: 12,Old status: new,New status: auto-draft,Title: Auto Draft"
+1600841584_8846:"Notice: adMinX, 127.0.0.1; Acf-field-group status has been changed; details: ID: 12,Old status: auto-draft,New status: publish,Title: Customize"
+1600841584_9197:"Notice: adMinX, 127.0.0.1; Acf-field status has been changed; details: ID: 13,Old status: new,New status: publish,Title: Buy a Ticket Redirect"
+1600841584_9571:"Notice: adMinX, 127.0.0.1; Acf-field status has been changed; details: ID: 14,Old status: new,New status: publish,Title: Date Event"
+1600841591_6603:"Notice: adMinX, 127.0.0.1; Customize status has been changed; details: ID: 15,Old status: new,New status: auto-draft,Title: Auto Draft"
+1600841605_132:"Notice: adMinX, 127.0.0.1; Artist status has been changed; details: ID: 16,Old status: new,New status: auto-draft,Title: Auto Draft"
+1600841628_4841:"Notice: adMinX, 127.0.0.1; Media file added; ID: 17; name: Afrojack; type: image\/png"
+1600841636_3839:"Notice: adMinX, 127.0.0.1; Media file added; ID: 18; name: Afrojack Give Me Everything; type: audio\/mpeg"
+1600841640_935:"Notice: adMinX, 127.0.0.1; Artist status has been changed; details: ID: 16,Old status: auto-draft,New status: publish,Title: Auto Draft"
+1600841646_7092:"Notice: adMinX, 127.0.0.1; Artist status has been changed; details: ID: 19,Old status: new,New status: auto-draft,Title: Auto Draft"
+1600841656_0255:"Notice: adMinX, 127.0.0.1; Media file added; ID: 20; name: Armin-van-buuren; type: image\/jpeg"
+1600841665_2046:"Notice: adMinX, 127.0.0.1; Media file added; ID: 21; name: Armin van Buuren This Is What It Feels Like (Official Music Video); type: audio\/mpeg"
+1600841670_3063:"Notice: adMinX, 127.0.0.1; Artist status has been changed; details: ID: 19,Old status: auto-draft,New status: publish,Title: Auto Draft"
+1600841676_7868:"Notice: adMinX, 127.0.0.1; Artist status has been changed; details: ID: 22,Old status: new,New status: auto-draft,Title: Auto Draft"
+1600841685_1133:"Notice: adMinX, 127.0.0.1; Media file added; ID: 23; name: Hardwell - Zero 76; type: audio\/mpeg"
+1600841692_9568:"Notice: adMinX, 127.0.0.1; Media file added; ID: 24; name: Hardwell; type: image\/jpeg"
+1600841697_8565:"Notice: adMinX, 127.0.0.1; Artist status has been changed; details: ID: 22,Old status: auto-draft,New status: publish,Title: Auto Draft"
+1600841702_943:"Notice: adMinX, 127.0.0.1; Artist status has been changed; details: ID: 25,Old status: new,New status: auto-draft,Title: Auto Draft"
+1600841716_1688:"Notice: adMinX, 127.0.0.1; Media file added; ID: 26; name: Nicky Romero - Toulouse; type: audio\/mpeg"
+1600841724_5349:"Notice: adMinX, 127.0.0.1; Media file added; ID: 27; name: Nicky Romero; type: image\/jpeg"
+1600841729_8294:"Notice: adMinX, 127.0.0.1; Artist status has been changed; details: ID: 25,Old status: auto-draft,New status: publish,Title: Auto Draft"
+1600841736_4744:"Notice: adMinX, 127.0.0.1; Artist status has been changed; details: ID: 28,Old status: new,New status: auto-draft,Title: Auto Draft"
+1600841757_0854:"Notice: adMinX, 127.0.0.1; Media file added; ID: 29; name: Ti\u00ebsto - On My Way; type: audio\/mpeg"
+1600841765_7874:"Notice: adMinX, 127.0.0.1; Media file added; ID: 30; name: Tiesto; type: image\/jpeg"
+1600841774_7859:"Notice: adMinX, 127.0.0.1; Artist status has been changed; details: ID: 28,Old status: auto-draft,New status: publish,Title: Auto Draft"
+1600841792_9104:"Notice: adMinX, 127.0.0.1; Customize status has been changed; details: ID: 31,Old status: new,New status: auto-draft,Title: Auto Draft"
+1600841834_339:"Notice: adMinX, 127.0.0.1; Customize status has been changed; details: ID: 31,Old status: auto-draft,New status: publish,Title: Auto Draft"
