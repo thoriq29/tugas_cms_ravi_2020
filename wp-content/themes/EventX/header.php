@@ -41,7 +41,18 @@
         </h1>
 
         <span class="d-block">
-
+            Wanna see your favorite artist<br>singing beside of you ?
         </span>
+
+        <?php $customize = get_posts([
+                'post_type' => 'customize',
+                'numberposts' => 1
+        ]) ?>
+
+        <?php foreach($customize as $custom) : ?>
+            <a href="<?= get_field('buy_a_ticket', $custom->ID) ?>" target="_blank" class="btn btn-primary">
+                Buy a ticket
+            </a>
+        <?php endforeach; ?>
     </div>
 </header>

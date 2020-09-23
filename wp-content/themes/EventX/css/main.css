@@ -65,6 +65,27 @@ section{
     border-bottom: 3px solid var(--secondaryColor)
 }
 
+.btn{
+    text-decoration:none;
+    outline: none;
+    border:none;
+    padding: 12px 22px;
+    cursor:pointer;
+    font-size: 18px;
+    font-family: "Mt Semi";
+    border-radius: 10px;
+}
+
+.btn-primary{
+    background-color: var(--primaryColor);
+    color: #fafafa;
+    transition:all 1s
+}
+
+.btn-primary:hover{
+    background-color: #651734;
+}
+
 /* end custom css */
 
 /* header styles */
@@ -94,5 +115,26 @@ header#header{
     height:100% !important;
     cursor:pointer;
     filter: brightness(.4)
+}
+
+header#header .container{
+    color: #fafafa;
+    position: absolute;
+    top:50%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+
+header#header .container h1{
+    font-size: 47px;
+    font-weight: bold;
+    font-family: "Mt Bold";
+    margin-bottom: .6rem;
+    text-shadow: 2px 2px 4px rgba(255, 255 , 255, .4);
+}
+
+header#header .container span{
+    font-size: 22px;
+    margin-bottom: 2.4rem;
 }
 /* end header styles */
