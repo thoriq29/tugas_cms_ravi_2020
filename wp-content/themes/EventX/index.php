@@ -13,14 +13,24 @@
            </div>
 
             <div class="content">
-                <div class="card">
-                    <div class="card-body">
-                        <h1 class="card-title">
-                            This is a title
-                        </h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab iusto maxime odit, quas repudiandae rerum voluptas. Alias corporis cum deleniti dicta ea eius et incidunt, omnis quam soluta, velit voluptatum!</p>
+                <?php $data_news = get_posts([
+                        'post_type' => 'news',
+                        'numberposts' => 3
+                ]) ?>
+
+                <?php foreach($data_news as $news) : ?>
+                    <div class="card">
+                        <div class="card-body">
+                            <h1 class="card-title">
+                                <?= $news->post_title ?>
+                            </h1>
+                            <p>
+                                <?= substr($news->post_content, 0, 150) ?>...
+                            </p>
+                            <a href="" class="btn btn-primary full-width">Read more</a>
+                        </div>
                     </div>
-                </div>
+                <?php endforeach; ?>
             </div>
         </div>
     </section>
