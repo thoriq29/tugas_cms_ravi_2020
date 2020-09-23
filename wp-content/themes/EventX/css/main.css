@@ -361,3 +361,14 @@ aside#sidebar .sponsor img{
     margin-bottom: .6rem;
 }
 /* end sidebar styles */
+
+/* single news */
+header#news-header{
+    padding: 25px;
+    background-color: var(--primaryColor);
+    color: #fafafa;
+}
+
+header#news-header h1{
+    font-size: 25px;
+}

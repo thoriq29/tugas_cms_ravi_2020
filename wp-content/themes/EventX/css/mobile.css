@@ -81,3 +81,23 @@ footer#footer .sfsi_widget{
     margin-left: 4rem;
 }
 /* end footer styles */
+
+/* sidebar */
+
+aside#sidebar .content .sponsor-wrapper{
+    display: block;
+}
+
+aside#sidebar .toggler{
+    left: 86.5%;
+}
+
+.toggler span{
+    font-size: 25px;
+    font-weight:bold;
+}
+
+aside#sidebar{
+    width:100vw;
+    left:-79.5%;
+}
