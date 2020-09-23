@@ -263,7 +263,7 @@ footer#footer{
 
 footer#footer .content{
     display:grid;
-    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
     grid-gap: 30px;
 }
 
@@ -289,7 +289,7 @@ footer#footer .content div h4{
 }
 
 .norm_row{
-    margin-left: 2rem;
+    margin-left: 4rem;
 }
 /* end footer styles */
 
@@ -363,10 +363,15 @@ aside#sidebar .sponsor img{
 /* end sidebar styles */
 
 /* single news */
-header#news-header{
-    padding: 25px;
-    background-color: var(--primaryColor);
+header#news-header .header{
+    padding: 12px;
+    background-color: var(--secondaryColor);
     color: #fafafa;
+}
+
+header#news-header .content{
+    min-height: 30vh;
+    margin-bottom: 3rem;
 }
 
 header#news-header h1{
