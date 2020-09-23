@@ -13,7 +13,7 @@
            </div>
 
             <div class="content">
-                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam corporis deleniti ducimus earum, est facere, facilis id in laudantium nemo nihil nisi non porro quo repellendus, sed similique sit.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita odio recusandae saepe. A beatae ex facere magnam molestias nam obcaecati odio odit officia perspiciatis possimus quis, quisquam soluta tempore voluptatum!</p>
             </div>
         </div>
     </section>
