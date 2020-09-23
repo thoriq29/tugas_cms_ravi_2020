@@ -1,0 +1,24 @@
+.container{
+    max-width: 85%;
+    margin:0 auto;
+}
+
+/* news styles */
+section#news .content{
+    display:block
+}
+
+section#news .content .card{
+    margin-bottom: 1.5rem;
+}
+/* end news styles */
+
+/* save date styles */
+section#save_date .container{
+    width:100%
+}
+
+section#save_date .countdown{
+    font-size: 25px;
+}
+/* end save date styles */
