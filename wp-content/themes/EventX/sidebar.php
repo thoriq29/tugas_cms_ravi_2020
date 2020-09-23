@@ -1,9 +1,11 @@
 <aside id="sidebar">
-<?php if ( is_active_sidebar( 'primary-widget-area' ) ) : ?>
-<div id="primary" class="widget-area">
-<ul class="xoxo">
-<?php dynamic_sidebar( 'primary-widget-area' ); ?>
-</ul>
-</div>
-<?php endif; ?>
+    <div class="content">
+        <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores necessitatibus odio porro sint ut. Animi aperiam cupiditate deserunt, dolore fuga, fugit in libero necessitatibus, non numquam quis quisquam reprehenderit voluptas!</h1>
+    </div>
+
+    <div class="toggler">
+        <span>
+            &gt;
+        </span>
+    </div>
 </aside>

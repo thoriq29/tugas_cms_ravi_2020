@@ -1,5 +1,7 @@
 <?php get_header(); ?>
 
+<?php get_sidebar(); ?>
+
 <?php $customize = get_posts([
     'post_type' => 'customize',
     'numberposts' => 1

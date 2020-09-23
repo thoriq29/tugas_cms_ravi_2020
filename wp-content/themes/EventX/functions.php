@@ -38,6 +38,13 @@ class EventX{
             'supports' => ['']
         ]);
 
+        register_post_type('sponsor', [
+            'label' => 'Sponsor',
+            'menu_position' => 5,
+            'public' => true,
+            'supports' => ['title', 'thumbnail']
+        ]);
+
         /* register wp supports */
         add_theme_support('post-thumbnails');
     }
