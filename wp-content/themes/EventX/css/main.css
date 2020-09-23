@@ -42,6 +42,16 @@ section{
     font-weight:bold;
 }
 
+input.custom-input{
+    width:100%;
+    height: 35px;
+    outline:none;
+    border:none;
+    padding: 7px;
+    color: #909090 !important;
+    border-radius: 7px;
+}
+
 .card{
     width:100%;
     padding: 25px;
@@ -242,3 +252,34 @@ section#aboutUs .img-company img:hover{
     transform:scale(1.4) rotate(7deg);
 }
 /* end about us section styles */
+
+/* footer styles */
+footer#footer{
+    background-color: var(--primaryColor);
+    padding: 25px;
+    color: #fafafa;
+}
+
+footer#footer .content{
+    display:grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 30px;
+}
+
+footer#footer .subscribe input.custom-input{
+    width: 80%;
+    margin: 1rem auto;
+    display: block;
+}
+
+footer#footer .subscribe button{
+    display: block;
+    font-size: 16px;
+    margin:0 auto;
+    padding: 7px 14px;
+}
+
+.copyright{
+    margin-top: 2rem;
+}
+/* end footer styles */
