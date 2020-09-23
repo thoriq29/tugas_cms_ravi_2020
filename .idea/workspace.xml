@@ -26,7 +26,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/wp-content/themes/EventX/assets/fonts/poppins" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wp-content/themes/EventX/assets/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
@@ -34,6 +34,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\lksn_2020\kisi-kisi\CMS\jerbee\EventX\wp-content\themes\EventX\assets\images" />
       <recent name="C:\xampp\htdocs\lksn_2020\kisi-kisi\CMS\jerbee\EventX\wp-content\themes\EventX\assets\fonts\poppins" />
       <recent name="C:\xampp\htdocs\lksn_2020\kisi-kisi\CMS\jerbee\EventX\wp-content\themes\EventX\assets\fonts\montserrat" />
       <recent name="C:\xampp\htdocs\lksn_2020\kisi-kisi\CMS\jerbee\EventX\wp-content\themes\EventX\js" />
@@ -47,7 +48,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600834365150</updated>
-      <workItem from="1600834366788" duration="12211000" />
+      <workItem from="1600834366788" duration="13632000" />
     </task>
     <servers />
   </component>
@@ -63,9 +64,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="74" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1600835108235" />
-    <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1600851357152">
+    <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1600852269347">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1600851357152" />
+    <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1600852269347" />
   </component>
 </project>

@@ -60,6 +60,28 @@
             <?php endforeach; ?>
         </div>
     </section>
+
+    <section id="aboutUs">
+        <div class="container">
+            <div class="header text-center">
+                <div class="section-header">
+                    About Us
+                </div>
+                <span class="d-block">
+                    This is a short bio of our company
+                </span>
+            </div>
+
+            <div class="content">
+                <div class="img-company">
+                    <img src="<?= get_template_directory_uri() . '/assets/images/company.jpg' ?>" alt="">
+                </div>
+                <p>
+                    <strong>EventX</strong> is a company based on music event. Ab consequuntur dolor dolores ea eveniet labore laborum neque odio placeat quas qui quisquam quod tempore, temporibus totam vel voluptatibus. Facilis, iusto. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem impedit itaque rem. Animi consequatur doloremque doloribus excepturi nesciunt numquam omnis perferendis, praesentium qui quo quod rerum saepe tempora ullam unde? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aperiam, consectetur distinctio dolore enim eos esse laboriosam natus perferendis perspiciatis quia quo quos tempore. Amet asperiores laudantium maiores molestiae velit!
+                </p>
+            </div>
+        </div>
+    </section>
 </main>
 
 <?php get_footer(); ?>

@@ -79,12 +79,16 @@ $(document).ready(function(){
                     hour = 23
 
                     if(day === 0 && hour === 0 && minute === 0 && second === 0){
-                        day -= 1
-                        hour = 23
+                        console.log('Event is began or Event was finished')
                     }
                 }
             }
         }
+
+        $('span#days').html(day + ' Days |')
+        $('span#hours').html(hour + ' Hours |')
+        $('span#minutes').html(minute + ' Minutes |')
+        $('span#seconds').html(second + ' Seconds')
     }
 
     setInterval(() => {
