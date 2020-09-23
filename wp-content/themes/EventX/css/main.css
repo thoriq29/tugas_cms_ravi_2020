@@ -209,4 +209,10 @@ section#save_date h2{
     margin-bottom: 1rem;
 }
 
+section#save_date .countdown{
+    font-size: 28px;
+    font-family: "Mt Bold";
+    margin-top: 1.8rem;
+}
+
 /* end save date section styles */

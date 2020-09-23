@@ -45,13 +45,17 @@
             <h2>Let us remind you when the event will begin</h2>
             <h4>Event will begin at</h4>
             <?php foreach($customize as $custom) : ?>
-                <span class="d-block">
+                <span class="d-block countdown">
                     <?php
                         $now = new DateTime();
-                        $event_date = new DateTime(get_field('event_date', $custom->ID));
-
-                        echo $event_date->format('Y');
+                        $event_date = new DateTime(get_field('date_event', $custom->ID));
+                        $date_diff = date_diff($now, $event_date);
                     ?>
+
+                    <span id="days"><?= $date_diff->format('%a Days') ?> |</span>
+                    <span id="hours"><?= $date_diff->format('%h Hours') ?> |</span>
+                    <span id="minutes"><?= $date_diff->format('%i Minutes') ?> |</span>
+                    <span id="seconds"><?= $date_diff->format('%s Seconds') ?></span>
                 </span>
             <?php endforeach; ?>
         </div>

@@ -56,4 +56,39 @@ $(document).ready(function(){
         music.currentTime = 0;
     })
 
+    // countdown
+
+    function countdown(){
+        let day = parseInt($('span#days').html().split(' ')[0])
+        let hour = parseInt($('span#hours').html().split(' ')[0])
+        let minute = parseInt($('span#minutes').html().split(' ')[0])
+        let second = parseInt($('span#seconds').html().split(' ')[0])
+
+
+        second -= 1
+        if(second === 0){
+            minute -= 1
+            second = 59
+
+            if(minute === 0){
+                hour -= 1
+                minute = 59
+
+                if(hour === 0){
+                    day -= 1
+                    hour = 23
+
+                    if(day === 0 && hour === 0 && minute === 0 && second === 0){
+                        day -= 1
+                        hour = 23
+                    }
+                }
+            }
+        }
+    }
+
+    setInterval(() => {
+        countdown()
+    }, 1000)
+
 })
